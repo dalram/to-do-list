@@ -22,7 +22,7 @@ input:focus::placeholder {
     border-radius: 20px;
     border: solid;
     padding-bottom: 30px;
-    background-image: url(/img/box-background.png);
+    background-image: url(../img/box-background.png);
     background-size: cover;
 }
 
