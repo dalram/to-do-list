@@ -25,6 +25,7 @@ body > main {
 header > img {
     height: 52px;
     float: left;
+    opacity: 50%;
 }
 header > nav {
     float: right;
@@ -46,10 +47,7 @@ nav > a:active {
     color: #1410d4;
     
 }
-h1{
-    color: #fff;
-    text-align: center;   
-}
+ 
 input:focus::placeholder {
    color: transparent;
 }
@@ -57,20 +55,34 @@ input:focus::placeholder {
     text-align: center;
     border-radius: 20px;
     border: solid;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     background-image: url(../img/page-background.png);
     background-position: bottom;
 }
 
+.first-block > h1{
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;  
+}
+.second-block {
+    margin-top: 20px;
+}
 ol {
     display: table;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     list-style-position: inside;
     list-style-type: decimal;
     color: #000;
   }
-  #done {
-      background-color: #008000;
-  }
+ button {
+     margin-left: 5px;
+     padding: 2px;
+     background: linear-gradient(90deg, rgb(255, 187, 0), yellow);
+ }
+ input {
+     padding: 2px;
+ }
 
