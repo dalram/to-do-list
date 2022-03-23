@@ -1,4 +1,4 @@
-body,
+ body,
 body * {
     margin: 0;
     padding: 0;
@@ -9,9 +9,43 @@ body * {
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h1
-h2 {
+body > header,
+body > main,
+.first-block {
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+    margin-right: calc(50% - 500px);
+    display: inline-block;
+    margin-top: 20px;
+}
+body > main {
+    margin-top: 100px;
+}
+header > img {
+    height: 52px;
+    float: left;
+}
+header > nav {
+    float: right;
+    margin-top: 13px;
+}
+nav > a {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
     color: black;
+}
+nav > a:hover {
+    border-bottom: solid 2px red;
+}
+nav > a:active {
+    color: #f514aa
+}
+h1{
+    color: #000;
     text-align: center;   
 }
 input:focus::placeholder {
@@ -37,4 +71,6 @@ ol {
   #done {
       background-color: green;
   }
+
+
   
